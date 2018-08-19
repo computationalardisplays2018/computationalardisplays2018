@@ -56,7 +56,7 @@ jQuery(function ($) {
     // --------------------------------------------------------------------
 
     (function () {
-        if ($('#googleMap').length > 0) {
+        if ($('#googleMapEnhanced').length > 0) {
 
             //set your google maps parameters
             var $latitude  = 35.687415, //If you unable to find latitude and longitude of your address. Please visit http://www.latlong.net/convert-address-to-lat-long.html you can easily generate.
