@@ -501,7 +501,19 @@ button:focus,
     display: block;
     font-weight: normal;
     }
-
+	
+.team .thumbnail a {
+    color     : #0e1555;
+    text-decoration    : none;
+    -webkit-transition : all 0.3s ease 0s;
+    -moz-transition    : all 0.3s ease 0s;
+    -o-transition      : all 0.3s ease 0s;
+    transition         : all 0.3s ease 0s;
+    }
+	
+.team .thumbnail a:hover {
+    color     : #999999;
+    }
 
 .team .social-links li {
     display      : inline-block;
